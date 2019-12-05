@@ -1,7 +1,5 @@
 const burger = document.querySelector('.burger');
 const navlink = document.querySelector('.navLink');
-const bar = document.querySelector('.bar');
-const close = document.querySelector('.close');
 const nav = document.querySelector('nav');
 
 burger.addEventListener('click', () =>{
@@ -13,8 +11,6 @@ burger.addEventListener('click', () =>{
     navlink.style.maxHeight = navlink.scrollHeight + 'px';
     nav.style.backgroundColor = 'rgba(192, 121, 150, 0.774)';
   };
-
-  
 
 
 });
